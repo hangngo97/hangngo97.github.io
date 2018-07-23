@@ -1,0 +1,131 @@
+#content-tv{
+    .top{border-bottom: 1px solid #dddddd;
+        span{
+            font-size: 12px;
+        }
+    }
+    .overview{
+        .text{
+            p{
+                font-size: 26px;
+                color: #000;
+            }            
+        }
+        .table{margin-bottom: 80px;
+            .tr-1{
+                border-left:  0.03px solid #dddddd;
+                border-bottom:   0.03px solid #dddddd;
+            }
+            .tr-2{
+                border:  0.03px solid #dddddd;
+            }
+            .tr-3{
+                border-right:  0.03px solid #dddddd;
+                border-bottom:   0.03px solid #dddddd;
+            }
+                .th{ border-left:  0.03px solid #dddddd;
+                    padding: 8px;
+                    padding-top: 12px;
+                    padding-bottom: 12px;
+                    text-align: center;
+                    background-color:#0e5b9a;
+                    color:#ffffff;
+                }
+                .td{border-top:1px solid #dddddd;
+                    padding: 8px;
+                    padding-bottom: 60px;
+                    vertical-align: top;
+                }
+                
+
+        }
+            .list_blogs{min-height: 1370px;
+                background-color: #eeeeee;
+                .text{    padding-bottom: 35px;                }
+                .hasthumb{padding: 15px 0;
+                    .contact{
+                        padding: 25px;
+                        background-color: #ffffff;
+                        .img-blog{
+                            img{
+                                float: right;
+                            }
+                        }
+                        .left-ct{    position: relative;
+                            .number{
+                                position: absolute;
+                               font-family: ShinGoPro-Medium;
+                                top: -5px;
+                                left: 12px;
+                                color: #fff;
+                                 font-size: 26px;
+                            }
+                        }
+                        .text-ct{padding: 20px 0;}
+                        span{
+                            font-family: ShinGoPro-Medium;
+                            font-size: 24px;
+                            color: #0e5b9a;
+                            position: absolute;
+                            padding-left: 15px;
+                        }
+
+                        .form-email{
+                            position: relative;
+                            @extend %form-email;
+                            .email{
+                                position: absolute;
+                                left:50%;
+                                transform: translate(-50%,-50%);
+                                text-align: left;
+                                a{
+                                    span{
+                                        color:#fd7e00;
+                                    }
+                                }
+                            }
+                            
+                        }
+                        .phone{
+                            border:1px solid #0e5b9b;
+                            text-align: center;
+                            color: #0e5b9a;
+                            p{
+                                font-size: 10px;
+                            }
+                        }
+                        p{
+                            a{
+                                text-decoration: none;
+                                color: #0e5b9a;
+                                font-family: meiryob;
+                            }
+                        }
+                    }
+                }            
+            }
+            .white{
+                .text-f{    padding-bottom: 70px;
+                    .form-footer{
+                    padding: 40px 54px;
+                    span{
+                        color: #0f5c9b;
+                        font-family: ShinGoPro-DeBold;
+                        font-size:24px;
+                        display: inline-block;
+                        border: 1px solid #0f5c9b;
+                        padding: 7px 95px;
+                    }
+                }
+                p{
+                   a{
+                       color: #0f5c9b;
+                       text-decoration: none;
+                       font-size: 22px;
+                   } 
+                }
+                }
+            }
+    }
+
+}

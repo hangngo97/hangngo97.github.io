@@ -1,0 +1,43 @@
+.banner{
+    height:421px;
+    background-image: url("../images/images-pc/banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    .form-banner{   
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border: 1px solid #ffffff;
+        a{
+            text-decoration: none;
+            color: #ffffff;
+            font-family: ShinGoProR;
+            font-size: 30px;
+            text-align: center; 
+            display: inline-block;
+            padding: 5px 10px;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
+//tv
+.banner-tv{
+    height: 162px;
+    background-image: url("../images/images-tv/banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    .form-banner{ margin: auto;
+        span{
+            color: #ffffff;
+            font-size: 28px;
+            text-align: center; 
+            display: inline-block;
+        }
+    }
+}
