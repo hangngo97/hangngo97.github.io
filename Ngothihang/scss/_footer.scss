@@ -1,0 +1,107 @@
+.blue{
+    background-image: url('../images/images-pc/blue.png');
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    .text-f{
+        .form-footer{
+        padding: 40px 54px;
+        span{
+            color: #ffffff;
+            font-family: ShinGoPro-DeBold;
+            font-size:24px;
+            display: inline-block;
+            border: 1px solid #ffffff;
+            padding: 4px 50px;
+        }
+    }
+            p{color: #ffffff;}
+            span{
+            color:#ebee57;
+        }
+    }
+    .page-top{
+        position: absolute;
+        background-color: #ffffff;
+        height: 80px;
+        width: 80px;
+        left: 1160px;
+        margin-top: -115px;
+        a{
+            @extend %a;
+            .act{
+                display: block;
+            }
+            .hid{
+                display: none;
+            }
+        }
+        img{
+            padding-top: 22px;
+        }
+        span{
+            display: block;
+            color: #0f5c9b;
+            font-size: 12px;
+            font-family: DIN-Bold;
+        }
+       
+    }
+    .page-top:hover{
+        background: none;
+        span{
+            color: #ffffff;
+        }
+        .act{
+            display: none;
+        }
+        .hid{
+            display: block;
+        }
+    }
+}
+
+.text-f2{
+    position: relative;
+    padding:40px 0 58px 0;
+    .phone{ color: #fff;
+        padding-left: 150px;
+        p{
+            font-family: YuGothR;
+            font-size: 12px;
+            text-align: center;
+        }
+    }
+    .form-email{
+        @extend %form-email;
+        width: 440px;
+    }
+}
+.footer{
+    background-color: #ccc;
+    text-align: center;
+    .menu-f{
+        padding: 30px;
+        line-height: 2;
+        li{  display: inline-block;
+            a{
+                padding: 0 22px;
+                text-decoration: none;
+                border-left: 1px solid #9b9b9b;
+                color: #222222;
+                ;
+                span{
+                    font-size: 14px;
+                }
+            }
+        } 
+        li:last-child a{
+            border-right:1px solid #9b9b9b;
+        }
+    }
+}
+.it-net{
+    font-size: 14px;
+    padding: 12px;
+}

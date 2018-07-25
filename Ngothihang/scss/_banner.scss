@@ -1,0 +1,31 @@
+.banner{
+    height:421px;
+    background-image: url("../images/images-pc/banner.png");
+    @extend %banner;
+    .form-banner{
+        border: 1px solid #ffffff;
+        a{
+            text-decoration: none;
+            color: #ffffff;
+            font-family: ShinGoProR;
+            font-size: 29px;
+            text-align: center; 
+            display: inline-block;
+            padding: 5px 10px;
+        }
+    }
+}
+//tv
+.banner-tv{
+    height: 162px;
+    background-image: url("../images/images-tv/banner.png");  
+    @extend %banner;
+    .form-banner{ 
+        span{
+            color: #ffffff;
+            font-size: 28px;
+            text-align: center; 
+            display: inline-block;
+        }
+    }
+}

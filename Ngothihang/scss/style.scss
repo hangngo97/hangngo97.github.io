@@ -1,0 +1,137 @@
+
+body{
+font-family:meiryo;
+font-weight:500;
+font-size:22px;
+@extend %m-w;
+}
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+font-family:meiryo;
+font-size: 16px;
+
+}
+.wrap-page{
+margin:0 auto;
+max-width:950px;
+}
+.row{
+    display:flex;
+    flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+}
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;}
+
+@for $i from 1 through 12{
+    .col-#{$i}{
+        flex: 0 0 (100%*$i/12);
+        max-width: (100%*$i/12);
+    }
+}
+h4{
+    color:#878787;
+    font-family: DIN-Bold;
+    font-size: 2.2rem;
+    display: inline-block;
+    margin-left: 6px;
+}
+%text1{
+    font-family: ShinGoPro-DeBold;
+    font-size:14px;
+    
+}
+%text2{
+    font-family: DIN-Bold;
+    font-size:12px;
+    color: #0e5b9a;
+    text-align: center;
+}
+$color-xanh:#0e5b9a;
+%m-w{min-width: 950px;}
+.img-responsive{ display: block; max-width: 100%;height: auto;}
+.text-center { text-align: center !important; }
+.right { flex-direction: row-reverse; }
+.clearfix { clear: both; }
+.text{
+    text-align: center;
+    padding-top: 50px;
+    span{
+        font-family: ShinGoPro-DeBold;
+        font-size:20px;
+    }
+    p{
+        font-family:DIN-Bold ;
+        font-size:12px ;
+        color:#0e5b9a;
+    }
+}
+.text-2{
+    text-align: center;
+    padding: 30px 0 60px 0;
+    color: #555555;
+}
+%banner{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    .form-banner{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+}
+%form-email{
+    .email{
+        width: 259px;
+        height: 48.5px;        
+        background-color: #ffed4d;       
+        text-align: center;  
+        padding-top: 16px;
+        a{text-decoration: none;
+            color:#fd7e00;
+            span{
+                font-size: 14px;
+                font-family: meiryob;
+            }
+        }
+    }
+
+    :hover{
+            opacity: 0.8;
+        img{
+            opacity:0.8;
+        }
+    }
+}
+%button{
+    background-color: #0f5c9b;
+    padding: 3px 14px;
+    color: #ffffff;
+    border: none;
+    font-size: 13px;    
+    font-family: ShinGoPro-Medium;
+    cursor: pointer;
+}
+%a{
+    text-decoration: none;
+}
+.img-sv{
+    height: 60px;
+}
+@import 'fonts';
+@import 'header';
+@import 'banner';
+@import 'new';
+@import 'service';
+@import 'advertisement';
+@import 'footer.scss';
+@import 'responsive';
+@import 'content-tv';
