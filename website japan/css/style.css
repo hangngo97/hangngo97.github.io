@@ -226,12 +226,12 @@ body { min-width: 950px; }
   .advertisement .ad-r { order: 1; text-align: center; padding: 0 15px 0 !important; }
   .advertisement .ad-r a img { width: 95% !important; }
   .advertisement .ad-r .ad-text p { font-size: 24px; }
-  .advertisement .ad-r button { font-size: 18px; }
+  .advertisement .ad-r button { font-size: 17px; }
   .advertisement .ad-l { order: 2; position: relative; margin-left: -5%; }
   .advertisement .ad-l .h2 { top: 40%; width: 25%; }
   .advertisement .ad-l .h1 { width: 100%; }
   .service { padding: 0 15px; }
-  .blue .text-f .form-footer span { padding: 2%; }
+  .blue .text-f .form-footer span { padding: 0 2%; }
   .blue .col-6 { max-width: 100%; flex: 0 0 100%; }
   .blue .phone { padding: 0; }
   .blue .text-f2 .form-email { padding-top: 5%; }
@@ -239,23 +239,22 @@ body { min-width: 950px; }
   .banner .form-banner, .banner-tv .form-banner { width: 85%; }
   .banner .form-banner a span, .banner-tv .form-banner a span { font-size: 30px; }
   #content-tv .top { display: none; }
-  .overview .text-2 { padding: 15px; }
-  .overview .table { padding: 15px; }
-  .overview .table .tr-1 { border: 1px solid #dddddd !important; }
-  .overview .table .tr-2 { border: 1px solid #dddddd !important; }
-  .overview .table .tr-3 { border: 1px solid #dddddd !important; }
-  .overview .table .col-3 { flex: 0 0 100%; max-width: 100%; }
-  .overview .table .col-6 { flex: 0 0 100%; max-width: 100%; }
-  .overview .list_blogs .hasthumb { padding: 15px !important; }
-  .overview .list_blogs .hasthumb .contact .col-8 { flex: 0 0 100%; max-width: 100%; }
-  .overview .list_blogs .hasthumb .contact .col-8 .col-6 { flex: 0 0 100%; max-width: 100%; }
-  .overview .list_blogs .hasthumb .contact .col-4 { flex: 0 0 100%; max-width: 100%; }
-  .overview .list_blogs .hasthumb .contact .col-4 img { width: 100%; }
-  .overview .list_blogs .hasthumb .contact .ct1 { padding-top: 8px; }
-  .overview .list_blogs .hasthumb .contact .form-email { padding-left: 0px !important; padding: 15px 0; margin: 10% 0; }
-  .overview .list_blogs .hasthumb .contact .form-email .email { width: 100% !important; padding-left: 25% !important; }
-  .overview .white .text-f.form-footer { margin-top: 15%; }
-  .overview .white .text-f.form-footer span { padding: 2% !important; }
+  #content-tv .overview .text-2 { padding: 15px; }
+  #content-tv .overview .table { padding: 15px; }
+  #content-tv .overview .table .tr-1 { border: 1px solid #dddddd !important; }
+  #content-tv .overview .table .tr-2 { border: 1px solid #dddddd !important; }
+  #content-tv .overview .table .tr-3 { border: 1px solid #dddddd !important; }
+  #content-tv .overview .table .col-3 { flex: 0 0 100%; max-width: 100%; }
+  #content-tv .overview .table .col-6 { flex: 0 0 100%; max-width: 100%; }
+  #content-tv .overview .list_blogs .hasthumb { padding: 15px !important; }
+  #content-tv .overview .list_blogs .hasthumb .contact .col-8 { flex: 0 0 100%; max-width: 100%; }
+  #content-tv .overview .list_blogs .hasthumb .contact .col-8 .col-6 { flex: 0 0 100%; max-width: 100%; }
+  #content-tv .overview .list_blogs .hasthumb .contact .col-4 { flex: 0 0 100%; max-width: 100%; }
+  #content-tv .overview .list_blogs .hasthumb .contact .col-4 img { width: 100%; }
+  #content-tv .overview .list_blogs .hasthumb .contact .ct1 { padding-top: 8px; }
+  #content-tv .overview .list_blogs .hasthumb .contact .form-email { padding-left: 0px !important; padding: 15px 0; margin: 10% 0; }
+  #content-tv .overview .list_blogs .hasthumb .contact .form-email .email { width: 100% !important; padding-left: 25% !important; }
+  #content-tv .overview .white .text-f .form-footer span { padding: 2px 15px !important; }
   .footer .menu-f li a span { font-size: 18px !important; }
   p { padding: 0 15px !important; } }
 #content-tv .top { border-bottom: 1px solid #dddddd; }
