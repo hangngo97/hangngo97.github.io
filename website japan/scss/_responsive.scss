@@ -207,7 +207,7 @@ display: block;
             }
         }
         button{
-            font-size: 18px;
+            font-size: 17px;
         }
     }
     .ad-l{
@@ -231,7 +231,7 @@ display: block;
     .text-f{
         .form-footer{
             span{
-                padding: 2%;
+                padding: 0 2%;
             }
         }
     }
@@ -266,12 +266,13 @@ display: block;
     }
 }
 //banner
+
 //tv
 #content-tv{
     .top{
         display: none;
     }
-}
+
 .overview{
     .text-2{padding: 15px;}
    .table{padding: 15px;
@@ -323,10 +324,17 @@ display: block;
             }
         }
     }
-    .white .text-f.form-footer {margin-top: 15%;
-            span{padding: 2% !important;}
+    .white{
+        .text-f{
+            .form-footer{
+                span{
+                    padding:2px 15px !important;
+                }
             }
+        }
     }
+    }
+}
 .footer .menu-f li a span {
     font-size: 18px!important;}
     p{ padding: 0 15px!important;}
