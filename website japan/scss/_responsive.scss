@@ -1,3 +1,4 @@
+//xu li page top
 @media only screen  and(max-width:949px){
     .blue{
         .page-top{
@@ -13,13 +14,33 @@
         }
     }
 }
+//end xu li page-top
+@media screen and (max-width:639px){
+      .service{
+        .list-service{
+          .col-4{
+            margin: 0 0 21px !important;
+            flex: 0 0 100% ;
+            max-width: 100%;
+            .item-service{
+              width: 210px !important;
+              height: 216px !important;
+              .item{
+                width: 100%;
+                height: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
 @media only screen and (min-width: 320px) and (max-width: 768px) {
     body{
         min-width: 320px;
     }
     *{
         font-family:HiraKakuProN-W3;
-        font-size: 22px;
+        font-size: 20px;
         
         }
     // @import 'reset';
@@ -30,7 +51,7 @@
 %hidend-xs{
     display:none!important;
 }
-
+//header
 #all-header .header .right-header, #all-header .menu-v{
     @extend %hidend-xs;
 }
@@ -56,10 +77,11 @@
         }
     }
         .menuBar{
+            position: absolute;
             background-color: #006699 !important;
             color: white;
             width: 100%;
-            height: 855px;
+            height: 900px;
             top: 17%;
             z-index: 1; 
             .visible-xs{
@@ -73,8 +95,8 @@
                         color: white;
                         text-decoration: none;
                         font-family: HiraKakuPro_w6;
-                        font-size: 20pt;
-                        padding: 25px 0px;
+                        font-size: 24px;
+                        padding: 20px 0px;
                         width: 100%;
                         padding-left: 20px;
                         position: relative;
@@ -98,6 +120,8 @@
 display: block;
 }
 }
+//end header
+//new
 .all-new{
     width: 90%;
     margin-left: 5%;
@@ -139,7 +163,7 @@ display: block;
             font-size: 20px;     
         }
             a{   
-                 display: flow-root;
+                 display: flex;
             }
         .hiddend{
             display: block;
@@ -161,29 +185,8 @@ display: block;
         }
     }
 }
-.service{
-    height: 725px;
-    .text{
-        span{
-            font-size: 30px;
-        }
-        p{font-size: 20px;}
-    }
-
-    .list-service{    width: 90%;
-        .item-service{ background-size: 98%;   
-            padding: 10% 0;
-            .item{    width: 100%;
-                p{
-                    font-size: 16px;
-                }
-            }
-            .item:hover{
-                display: none;
-            }
-        }
-    }
-}
+//end new
+//advertisement
 .advertisement{
     .col-6{
     max-width: 100%;
@@ -192,6 +195,7 @@ display: block;
     .ad-r{
         order:1;
         text-align: center;
+        padding:0 15px 0 !important;
         a{
             img{
                 width: 95% !important;
@@ -199,11 +203,11 @@ display: block;
         }
         .ad-text{
             p{
-                font-size:30px;
+                font-size:24px;
             }
         }
         button{
-            font-size: 22px;
+            font-size: 18px;
         }
     }
     .ad-l{
@@ -220,6 +224,9 @@ display: block;
 
     }
 }
+//end advertisement
+.service{    padding: 0 15px;}
+//footer
 .blue{
     .text-f{
         .form-footer{
@@ -246,16 +253,19 @@ display: block;
             }
         }
 }
+//end footer
+//banner
 .banner,.banner-tv{
     .form-banner{
         width: 85%;
         a{
             span{
-                font-size: 38px;
+                font-size: 30px;
             }
         }
     }
 }
+//banner
 //tv
 #content-tv{
     .top{
@@ -303,6 +313,7 @@ display: block;
                 .form-email{
                     padding-left: 0px !important;
                     padding: 15px 0;
+                     margin: 10% 0;
                     .email{
                         width: 100% !important;
                         padding-left: 25% !important;
@@ -312,14 +323,12 @@ display: block;
             }
         }
     }
-    .white .text-f .form-footer {
-        margin-top: 15%;
-    span{
-        padding: 2% !important;
-
-    }}
-}
+    .white .text-f.form-footer {margin-top: 15%;
+            span{padding: 2% !important;}
+            }
+    }
 .footer .menu-f li a span {
-    font-size: 20px!important;}
+    font-size: 18px!important;}
+    p{ padding: 0 15px!important;}
 
 }

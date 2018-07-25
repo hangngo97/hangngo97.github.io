@@ -1,31 +1,32 @@
 .service{
     background-color: #eeeeee;
-    height: 600px;
-    .list-service {
-        margin: auto;
-        min-height: 300px;
-     .item-service {
+    .list-service{
+        padding-bottom:70px;
+        .item-service{
             background-image: url('../images/images-pc/index_pc.png');
-            background-size: 230px ;
+            background-size: contain;
+            width: 210px;
+            height: 216px;
             background-repeat: no-repeat;
-            background-position: center;
-            padding: 55px;
+            padding: 7px;
+            margin: auto;
             .item{
-                height: 215px;
-                padding-top:30px;
-                 transition: all .5s;      
-                 .img1{
-                    height: 60px;
-                }   
-                .img2{height: 60px;}
-                        
+                text-align: center;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                transition: all .5s;
+                justify-content: center;
                 p{
                     font-family: "ShinGoPro-DeBold";
                     color: #0f5c9b;
                     font-size: 20px;
                 }
-                img.hide {
-                        display: none;
+                .hide{
+                    display: none;
+                }
+                .img-sv{
+                    img{height: 60px;}                   
                 }
             }
             .item:hover {
@@ -44,28 +45,4 @@
             }
         }
     }
-}
-
-.text{
-    text-align: center;
-    padding-top: 50px;
-    span{
-        font-family: ShinGoPro-DeBold;
-        font-size:20px;
-    }
-    p{
-        font-family:DIN-Bold ;
-        font-size:12px ;
-        color:#0e5b9a;
-    }
-}
-.text-2{
-    text-align: center;
-    padding: 21px;
-    color: #555555;
-}
-
-%padding{
-    padding-left: 80px;
-    padding-top: 50px;
 }
